@@ -29,6 +29,7 @@ function App() {
   }, [password]);
   // Hello react user
   // passwordGenerator;
+  console.log("prem")
   useEffect(() => {
     passwordGenerator();
   }, [length, numberAllowed, charAllowed, passwordGenerator]);
